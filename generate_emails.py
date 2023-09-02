@@ -10,7 +10,7 @@ pd.options.display.max_columns = None
 Faker.seed(3245)
 faker = Faker()
 
-def generate_customer_data(num_customers=20000, max_emails_per_person=4):
+def generate_customer_data(num_customers=65000, max_emails_per_person=4):
     customers = [] # List to store generated customer data
     emails_sent = {} # Dictionary to track sent emails for each customer
 
@@ -133,4 +133,4 @@ customer_data = generate_customer_data()
 df = pd.DataFrame(customer_data)
 
 # Save DataFrame to a CSV file
-df.to_csv(r'C:\Users\Marius\Desktop\Email Marketing\test4.csv', index=True, index_label='index')
+df.to_csv(r'C:\Users\Marius\Desktop\Email Marketing\unfiltered_dataset.csv', index=True, index_label='index')
