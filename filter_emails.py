@@ -33,7 +33,7 @@ def filter_email_7(df):
     return df[df['email_name'].str.contains('Email 2|Email 3|Email 4')]
 
 # Load the CSV file into a DataFrame
-df = pd.read_csv(r'C:\Users\Marius\Desktop\Email Marketing\test4.csv')
+df = pd.read_csv(r'C:\Users\Marius\Desktop\Email Marketing\unfiltered_dataset.csv')
 
 # Calculate the row indices for specific percentiles based on total number of customers
 total_customers = len(df) // 4  # Each customer gets 4 emails
