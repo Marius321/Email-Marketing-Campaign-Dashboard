@@ -8,8 +8,6 @@ The dashboard is available [here]().
 
 The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview). Below I outlined the steps taken to create my dashboard.
 
+## STEP 1. Installing the Database
 
-
-Shout out and inpiration from:
-Chimdi Nwosu
-Paul Haughton
+## Shout outs and inpiration from:
