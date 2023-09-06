@@ -6,7 +6,7 @@ This repository showcases the Python fake data generating scrips used in my pers
 
 The dashboard is available [here]().
 
-The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview).
+The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview). Below I outlined the steps taken to create my dashboard.
 
 
 
