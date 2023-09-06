@@ -13,6 +13,9 @@ First I have installed Anaconda Navigator onto my local machine and setted up a 
 
 ## STEP 2. Generating Scripts
 There are three different scripts that performs different operations
-### Script 1. Generating Scripts
+### Script 1. Data generating script
+This script uses faker library to generate fake email marketing data inluding 
+![Columns Data](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/5edfdca5-7d8e-432a-9462-15c73af81257)
+
 
 ## Shout outs and inpiration from:
