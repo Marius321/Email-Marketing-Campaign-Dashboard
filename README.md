@@ -8,6 +8,11 @@ The dashboard is available [here]().
 
 The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview). Below I outlined the steps taken to create my dashboard.
 
-## STEP 1. Installing the Database
+## STEP 1. Setting up the IDE
+First I have installed Anaconda Navigator onto my local machine and setted up a Spyder IDE using Python 3.9 in order to start generating the scripts. 
+
+## STEP 2. Generating Scripts
+There are three different scripts that performs different operations
+### Script 1. Generating Scripts
 
 ## Shout outs and inpiration from:
