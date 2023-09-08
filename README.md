@@ -46,7 +46,8 @@ Full scripts:
 
 Generating Fake Data
 ```
-account_number = faker.random_number(digits=8)
+        name = faker.name()
+        account_number = faker.random_number(digits=8)
 ```
 Selecting columns and filtering based on cerrtain values
 ```
