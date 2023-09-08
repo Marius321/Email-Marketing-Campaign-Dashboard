@@ -20,6 +20,7 @@ This script uses faker library to generate fake email data inluding customer nam
 
 #### Script 2. Filtering script
 The 1st script generates data with all customers receiving 4 emails, this script filters some of the emails out for certain groups of customers based on specified percentiles, so it mimics real world data better where different customers receive different number of emails.
+
 #### Script 3. Sankey script
 This script transforms the data from the previous script in the format needed to build a Sankey Funnel Chart. Format available in the screenshot below. Script filters the data down to the month of August and to the year of 2023, later unioning the results to allow period filterability on dashboard.
 
@@ -27,4 +28,15 @@ This script transforms the data from the previous script in the format needed to
 
 *Some of the scripts were written with the help of Chat GPT in order to speed up the process of generating scripts. 
 
+## STEP 3. Setting up the Data Model
+The datamodel for this dashbaord is realtively simple. It includes to tables with no real realtionship established between two of them. One is the sankey dataset, that feeds the sankey, and the other one is email metrics dataset that feeds the rest.
+
+## STEP 4. Building Tableau dashboard
+Sankey Funnel was build following the [blog](https://www.flerlagetwins.com/2019/11/sankey-funnel.html) by Ken Flerlage. I have also used [this](https://www.youtube.com/watch?v=NwV6FWAbPAM) Youtube tutorial to build gradient bar charts. The other Tableau functionality and features used.
+- Parameter and Select Actions
+- Navigation Buttons
+- Gradient images created using Figma
+- Custom number formatting to dsiplay up/down indicators
+
 ## Shout outs and inpiration from:
+Ken Flerlage
