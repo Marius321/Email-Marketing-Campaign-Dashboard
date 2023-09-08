@@ -38,5 +38,16 @@ Sankey Funnel was build following the [blog](https://www.flerlagetwins.com/2019/
 - Gradient images created using Figma
 - Custom number formatting to dsiplay up/down indicators
 
+## Python Code Snippets
+Full scripts: 
+1. [Email Data Generating Script](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/generate_emails.py)
+2. [Filtering Script](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/filter_emails.py)
+3. [Sankey Script](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/sankey.py)
+
 ## Shout outs and inpiration from:
 Ken Flerlage
+
+## Social Media
+[Tableau Public](https://public.tableau.com/app/profile/marius5597)
+[Twitter](https://twitter.com/VizMarius)
+[LinkedIn](https://www.linkedin.com/in/mariusnikiforovas/)
