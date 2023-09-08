@@ -52,6 +52,23 @@ Selecting columns and filtering based on cerrtain values
 ```
 df_filtered_2023 = df[df['name'].isin(customers_all_emails_in_2023['name'])]
 ```
+Creating columns and assigning values
+```
+data_2023['Month/Year'] = "Year"
+```
+Defining custom functions
+```
+def filter_email_2(df):
+    return df[df['email_name'].str.contains('Email 1|Email 2|Email 3')]
+```
+Renaming columns
+```
+grouped_counts = grouped_counts.rename(columns={"Email 1": "Step 1", "Email 2": "Step 2", "Email 3": "Step 3", "Email 4": "Step 4"})
+```
+Merging/joining dataframes
+```
+merged = pd.merge(grouped_counts, model, on='Link')
+```
 ## Shout outs and inpiration from:
 Ken Flerlage
 
