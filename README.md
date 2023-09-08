@@ -21,6 +21,7 @@ The 1st script generates data with all customers receiving 4 emails, this script
 #### Script 3. Sankey script
 This script transforms the data from the previous script in the format needed to build a Sankey Funnel Chart. Format available in the screenshot below. Script filters the data down to the month of August and to the year of 2023, later unioning the results to allow period filterability on dashboard.
 ![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/99f49745-76bf-4b4f-bd80-4adea18406fd)
+
 *Some of the scripts were written with the help of Chat GPT in order to speed up the process of generating scripts. 
 
 ## Shout outs and inpiration from:
