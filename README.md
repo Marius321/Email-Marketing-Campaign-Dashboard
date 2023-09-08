@@ -44,6 +44,12 @@ Full scripts:
 2. [Filtering Script](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/filter_emails.py)
 3. [Sankey Script](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/sankey.py)
 
+Below are a few snippets of the code:
+```
+Generating Fake Data
+account_number = faker.random_number(digits=8)
+```
+
 ## Shout outs and inpiration from:
 Ken Flerlage
 
