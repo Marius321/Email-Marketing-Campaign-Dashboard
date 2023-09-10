@@ -89,6 +89,11 @@ For loops
             else:
                 continue
 ```
+Reading and writing to Excel files
+```
+df = pd.read_csv(r'C:\Users\Marius\Desktop\Email Marketing\unfiltered_dataset.csv')
+combined_result.to_csv(r'C:\Users\Marius\Desktop\Email Marketing\filtered_dataset.csv', index=False)
+```
 ## Shout outs and inpiration from:
 Ken Flerlage
 
