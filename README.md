@@ -79,6 +79,16 @@ Pivoting data frames
 ```
 df_pivoted = df.pivot(index='name', columns='email_name', values='email_name')
 ```
+For loops
+```
+        for j in email_sequence:
+            if name not in emails_sent:
+                emails_sent[name] = [j]
+            elif len(emails_sent[name]) < max_emails_per_person and j not in emails_sent[name]:
+                emails_sent[name].append(j)
+            else:
+                continue
+```
 ## Shout outs and inpiration from:
 Ken Flerlage
 
