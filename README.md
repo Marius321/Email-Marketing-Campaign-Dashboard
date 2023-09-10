@@ -51,7 +51,9 @@ account_number = faker.random_number(digits=8)
 ```
 Selecting columns and filtering based on cerrtain values
 ```
+customers_all_emails_in_2023 = df.groupby('name').filter(lambda group: all('2023' in date for date in group['sent_date']))
 df_filtered_2023 = df[df['name'].isin(customers_all_emails_in_2023['name'])]
+customers_all_emails_in_august = df.groupby('name').filter(lambda group: all('2023-08' in date for date in group['sent_date']))
 df_filtered_august = df[df['name'].isin(customers_all_emails_in_august['name'])]
 ```
 Creating columns and assigning values
