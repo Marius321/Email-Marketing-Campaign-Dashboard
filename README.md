@@ -81,7 +81,7 @@ Pivoting data frames
 ```
 df_pivoted = df.pivot(index='name', columns='email_name', values='email_name')
 ```
-Applying various calculations and functions
+Applying functions to the data
 ```
 num_emails = min(max_emails_per_person, 4)
 len(emails_sent[name])
