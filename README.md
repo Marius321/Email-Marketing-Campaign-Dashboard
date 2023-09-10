@@ -54,30 +54,12 @@ Selecting columns and filtering based on cerrtain values
 customers_all_emails_in_2023 = df.groupby('name').filter(lambda group: all('2023' in date for date in group['sent_date']))
 df_filtered_2023 = df[df['name'].isin(customers_all_emails_in_2023['name'])]
 ```
-Creating columns and assigning values
-```
-data_2023['Month/Year'] = "Year"
-data_august['Month/Year'] = "Month"
-```
 Defining custom functions
 ```
 def filter_email_2(df):
     return df[df['email_name'].str.contains('Email 1|Email 2|Email 3')]
 def filter_email_3(df):
     return df[df['email_name'].str.contains('Email 1|Email 2|Email 3|Email 4')]
-```
-Renaming columns
-```
-grouped_counts = grouped_counts.rename(columns={"Email 1": "Step 1", "Email 2": "Step 2", "Email 3": "Step 3", "Email 4": "Step 4"})
-```
-Merging and unioning data frames
-```
-merged = pd.merge(grouped_counts, model, on='Link')
-df_union = pd.concat([data_2023, data_august], axis=0, ignore_index=True)
-```
-Pivoting data frames
-```
-df_pivoted = df.pivot(index='name', columns='email_name', values='email_name')
 ```
 For loops
 ```
@@ -88,6 +70,24 @@ For loops
                 emails_sent[name].append(j)
             else:
                 continue
+```
+Merging and unioning data frames
+```
+merged = pd.merge(grouped_counts, model, on='Link')
+df_union = pd.concat([data_2023, data_august], axis=0, ignore_index=True)
+```
+Pivoting data frames
+```
+df_pivoted = df.pivot(index='name', columns='email_name', values='email_name')
+```
+Creating columns and assigning values
+```
+data_2023['Month/Year'] = "Year"
+data_august['Month/Year'] = "Month"
+```
+Renaming columns
+```
+grouped_counts = grouped_counts.rename(columns={"Email 1": "Step 1", "Email 2": "Step 2", "Email 3": "Step 3", "Email 4": "Step 4"})
 ```
 Reading and writing to Excel files
 ```
