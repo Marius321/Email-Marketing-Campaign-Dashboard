@@ -89,6 +89,13 @@ Renaming columns
 ```
 grouped_counts = grouped_counts.rename(columns={"Email 1": "Step 1", "Email 2": "Step 2", "Email 3": "Step 3", "Email 4": "Step 4"})
 ```
+Imporing different libraries
+```
+import random
+from faker import Faker
+import pandas as pd
+from datetime import datetime, timedelta
+```
 Reading and writing to Excel files
 ```
 df = pd.read_csv(r'C:\Users\Marius\Desktop\Email Marketing\unfiltered_dataset.csv')
