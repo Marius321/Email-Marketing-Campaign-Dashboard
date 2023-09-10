@@ -80,6 +80,13 @@ Pivoting data frames
 ```
 df_pivoted = df.pivot(index='name', columns='email_name', values='email_name')
 ```
+Importing different Python libraries
+```
+import random
+from faker import Faker
+import pandas as pd
+from datetime import datetime, timedelta
+```
 Creating columns and assigning values
 ```
 data_2023['Month/Year'] = "Year"
@@ -88,13 +95,6 @@ data_august['Month/Year'] = "Month"
 Renaming columns
 ```
 grouped_counts = grouped_counts.rename(columns={"Email 1": "Step 1", "Email 2": "Step 2", "Email 3": "Step 3", "Email 4": "Step 4"})
-```
-Imporing different libraries
-```
-import random
-from faker import Faker
-import pandas as pd
-from datetime import datetime, timedelta
 ```
 Reading and writing to Excel files
 ```
