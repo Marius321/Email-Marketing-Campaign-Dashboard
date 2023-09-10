@@ -63,13 +63,13 @@ def filter_email_3(df):
 ```
 For loops
 ```
-        for j in email_sequence:
-            if name not in emails_sent:
-                emails_sent[name] = [j]
-            elif len(emails_sent[name]) < max_emails_per_person and j not in emails_sent[name]:
-                emails_sent[name].append(j)
-            else:
-                continue
+for j in email_sequence:
+    if name not in emails_sent:
+        emails_sent[name] = [j]
+    elif len(emails_sent[name]) < max_emails_per_person and j not in emails_sent[name]:
+        emails_sent[name].append(j)
+    else:
+        continue
 ```
 Merging and unioning data frames
 ```
