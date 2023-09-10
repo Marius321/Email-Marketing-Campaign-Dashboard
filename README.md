@@ -65,8 +65,6 @@ def filter_email_2(df):
     return df[df['email_name'].str.contains('Email 1|Email 2|Email 3')]
 def filter_email_3(df):
     return df[df['email_name'].str.contains('Email 1|Email 2|Email 3|Email 4')]
-def filter_email_4(df):
-    return df[df['email_name'].str.contains('Email 1|Email 2|Email 4')]
 ```
 Renaming columns
 ```
