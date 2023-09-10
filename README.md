@@ -70,10 +70,9 @@ Renaming columns
 ```
 grouped_counts = grouped_counts.rename(columns={"Email 1": "Step 1", "Email 2": "Step 2", "Email 3": "Step 3", "Email 4": "Step 4"})
 ```
-Merging/unioning/concatinating dataframes
+Merging and unioning data frames
 ```
 merged = pd.merge(grouped_counts, model, on='Link')
-combined_result = pd.concat([combined_result, filtered_subset])
 df_union = pd.concat([data_2023, data_august], axis=0, ignore_index=True)
 ```
 Pivoting data frames
