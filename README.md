@@ -80,6 +80,17 @@ Pivoting data frames
 ```
 df_pivoted = df.pivot(index='name', columns='email_name', values='email_name')
 ```
+Applying various calculations and functions
+```
+num_emails = min(max_emails_per_person, 4)
+len(emails_sent[name])
+df[df['email_name'].str.contains('Email 2|Email 3')]
+```
+Changing the data types
+```
+percentile_index = int(total_customers * percentile) * 4
+'sent_date': sent_datetime.strftime('%Y-%m-%d %H:%M:%S')
+```
 Importing different Python libraries
 ```
 import random
