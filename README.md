@@ -115,6 +115,7 @@ combined_result.to_csv(r'C:\Users\Marius\Desktop\Email Marketing\filtered_datase
 ```
 ## Shout outs and inpiration from:
 Ken Flerlage
+Chimdi Nwosu
 
 ## Social Media
 [Tableau Public](https://public.tableau.com/app/profile/marius5597)
