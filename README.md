@@ -34,11 +34,12 @@ Full code available [here](https://github.com/Marius321/Email-Marketing-Campaign
 *Some of the code was written with the help of Chat GPT to speed up the process up. 
 
 ## STEP 3. Setting up the Data Model
-The data model for this dashboard is relatively simple. It includes two tables with no real relationship established between the two of them. One is the sankey dataset, which is used to build the sankey, and the other one is the email metrics dataset that was used to build the rest of the dashboard.
+The data model for this dashboard is relatively simple. It includes two tables with no relationship established between the two of them. One is the sankey dataset, which is used to build the sankey, and the other one is the email metrics dataset that was used to build the rest of the dashboard.
 
 ## STEP 4. Building Tableau dashboard
 Sankey Funnel was built following the [blog](https://www.flerlagetwins.com/2019/11/sankey-funnel.html) by Ken Flerlage. I have also used [this](https://www.youtube.com/watch?v=NwV6FWAbPAM) YouTube tutorial to build gradient bar charts. The other Tableau functionality and features used are outlined below:
 - Parameter and Select Actions
+- Filters
 - Navigation Buttons
 - Gradient images created using Figma
 - Custom number formatting to display up/down indicators
@@ -112,12 +113,13 @@ Reading and writing to Excel files
 df = pd.read_csv(r'C:\Users\Marius\Desktop\Email Marketing\unfiltered_dataset.csv')
 combined_result.to_csv(r'C:\Users\Marius\Desktop\Email Marketing\filtered_dataset.csv', index=False)
 ```
-## Shout outs and inpiration from:
-The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview). Below I outlined the steps taken to create this dashboard.
+## Inspiration:
+The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview).
 
-Other inspirations:
+Other inspiration:
+
 Ken Flerlage
-Paul Houghton
+
 
 ## Social Media
 📊 [Tableau Public](https://public.tableau.com/app/profile/marius5597)
