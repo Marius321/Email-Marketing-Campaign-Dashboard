@@ -6,8 +6,6 @@ Dashboard - Overview:
 Dashboard - Behind the Scenes:
 ![Dashboard Page 2](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/9b9e5231-4ad2-4d5d-b853-f8c838bedc15)
 
-The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview). Below I outlined the steps taken to create this dashboard.
-
 ## STEP 1. Setting up the IDE
 First I have installed Anaconda Navigator onto my local machine and setted up a Spyder IDE with Python 3.9 in order to start generating the scripts. 
 
@@ -114,10 +112,15 @@ df = pd.read_csv(r'C:\Users\Marius\Desktop\Email Marketing\unfiltered_dataset.cs
 combined_result.to_csv(r'C:\Users\Marius\Desktop\Email Marketing\filtered_dataset.csv', index=False)
 ```
 ## Shout outs and inpiration from:
+The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview). Below I outlined the steps taken to create this dashboard.
+
+Other inspirations:
 Ken Flerlage
-Chimdi Nwosu
+Paul Houghton
 
 ## Social Media
 [Tableau Public](https://public.tableau.com/app/profile/marius5597)
+
 [Twitter](https://twitter.com/VizMarius)
+
 [LinkedIn](https://www.linkedin.com/in/mariusnikiforovas/)
