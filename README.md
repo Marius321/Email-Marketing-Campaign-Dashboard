@@ -9,7 +9,7 @@ Dashboard - Behind the Scenes:
 ## STEP 1. Setting up the IDE
 I have started by installing Anaconda Navigator onto my local machine and setting up a Spyder IDE with Python 3.9 in order to start generating the scripts. 
 
-## STEP 2. Generating Scripts
+## STEP 2. Generating Scripts*
 It was then followed by writing the actual Python scripts I have generated three scripts for three operations:
 
 #### Script 1. Data generating script
