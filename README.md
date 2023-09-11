@@ -121,6 +121,6 @@ Paul Houghton
 ## Social Media
 📊 [Tableau Public](https://public.tableau.com/app/profile/marius5597)
 
-🐤✘ [Twitter/X](https://twitter.com/VizMarius)
+🐤 [Twitter/X](https://twitter.com/VizMarius)
 
 👨‍💼 [LinkedIn](https://www.linkedin.com/in/mariusnikiforovas/)
