@@ -116,11 +116,6 @@ combined_result.to_csv(r'C:\Users\Marius\Desktop\Email Marketing\filtered_datase
 ## Inspiration:
 The dashboard was inspired by Chimdi Nwosu viz #RWFD NYC Community Service Requests which can be found [here](https://public.tableau.com/app/profile/chimdi.nwosu/viz/RWFD-NYCCommunityServiceRequests/Overview).
 
-Other inspiration:
-
-Ken Flerlage
-
-
 ## Social Media
 📊 [Tableau Public](https://public.tableau.com/app/profile/marius5597)
 
