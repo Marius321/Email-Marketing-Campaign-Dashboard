@@ -45,12 +45,12 @@ Sankey Funnel was built following the [blog](https://www.flerlagetwins.com/2019/
 - Custom number formatting to display up/down indicators
 
 ## Python Code Snippets
-Generating Fake Data
+Generating fake data
 ```
 name = faker.name()
 account_number = faker.random_number(digits=8)
 ```
-Selecting columns and filtering based on cerrtain values
+Selecting columns and filtering
 ```
 customers_all_emails_in_2023 = df.groupby('name').filter(lambda group: all('2023' in date for date in group['sent_date']))
 df_filtered_2023 = df[df['name'].isin(customers_all_emails_in_2023['name'])]
