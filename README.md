@@ -41,6 +41,7 @@ Sankey Funnel was built following the [blog](https://www.flerlagetwins.com/2019/
 - Navigation Buttons
 - Gradient images created using Figma
 - Custom number formatting to display up/down indicators
+- String formatting functions and Regex to format dynamic field values (e.g. currency, percentages, numbers etc.)
 
 ## Python Code Snippets
 Generating fake data
