@@ -2,7 +2,7 @@
 This repository showcases Python scripts used in generating fake data and the rest of the steps taken behind my personal Tableau project - Email Marketing Campaign Dashboard. It is based off the client work I have done. The dashboard is available [here]().
 
 Dashboard - Overview:
-![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/aff9e96d-0ce1-4c0e-b5bc-3c8ed79742cb)
+![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/3061a3d7-1e5b-477a-9f02-83ac1815ffad)
 
 ## STEP 1. Setting up the IDE
 I have started by installing Anaconda Navigator onto my local machine and setting up a Spyder IDE with Python 3.9 in order to start generating the scripts. 
