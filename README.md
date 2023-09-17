@@ -3,7 +3,7 @@ This repository showcases Python scripts used in generating fake data and the re
 
 Datasets available:
 [data.world](https://data.world/mariusnikiforovas/filtered-dataset-email-marketing-campaign-dashboard)
-[kaggle]()
+[kaggle](https://www.kaggle.com/datasets/mariusnikiforovas/email-marketing-campaign-dashboard)
 
 Dashboard - Overview:
 ![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/8a35ae91-6ddb-4eb7-a164-04f3006a4bfb)
