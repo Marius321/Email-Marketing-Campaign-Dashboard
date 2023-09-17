@@ -1,4 +1,4 @@
-# Email-Marketing-Campaign-Dashboard
+# Email Marketing Campaign Dashboard
 This repository showcases Python scripts used in generating fake data and the rest of the steps taken behind my personal Tableau project - Email Marketing Campaign Dashboard. It is based on the client work I have done. The dashboard is available [here]().
 
 Dashboard - Overview:
