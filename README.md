@@ -2,9 +2,8 @@
 This repository showcases Python scripts used in generating fake data and the rest of the steps taken behind my personal Tableau project - Email Marketing Campaign Dashboard. It is based on the client work I have done. The dashboard is available [here]().
 
 Datasets available:
-
-[data.world](https://data.world/mariusnikiforovas/filtered-dataset-email-marketing-campaign-dashboard)
-[kaggle](https://www.kaggle.com/datasets/mariusnikiforovas/email-marketing-campaign-dashboard)
+<br>[data.world](https://data.world/mariusnikiforovas/filtered-dataset-email-marketing-campaign-dashboard)
+<br>[kaggle](https://www.kaggle.com/datasets/mariusnikiforovas/email-marketing-campaign-dashboard)
 
 Dashboard - Overview:
 ![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/8a35ae91-6ddb-4eb7-a164-04f3006a4bfb)
