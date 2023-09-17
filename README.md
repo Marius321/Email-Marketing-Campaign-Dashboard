@@ -8,7 +8,7 @@ Dashboard - Overview:
 I have started by installing Anaconda Navigator onto my local machine and setting up a Spyder IDE with Python 3.9 in order to start generating the scripts. 
 
 ## STEP 2. Generating Scripts*
-It was then followed by writing the actual Python scripts. There are three scripts for three different operations:
+It was then followed by writing the Python scripts. There are three scripts for three different operations:
 
 #### Script 1. Data generating script
 This script uses faker library to generate fake email data including customer name, email name, sent dates etc. as per below:
