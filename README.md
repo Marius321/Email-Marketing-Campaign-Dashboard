@@ -38,7 +38,7 @@ The data model for this dashboard is relatively simple. It includes two tables w
 Sankey Funnel was built following the [blog](https://www.flerlagetwins.com/2019/11/sankey-funnel.html) by Ken Flerlage. I have also used [this](https://www.youtube.com/watch?v=NwV6FWAbPAM) YouTube tutorial to build gradient bar charts. The other Tableau functionality and features used are outlined below:
 - Parameter and Select Actions
 - Filters
-- Navigation Buttons
+- Navigation buttons
 - Gradient images created using Figma
 - Custom number formatting to display up/down indicators
 - String formatting functions and Regex to format dynamic field values (e.g. currency, percentages, numbers etc.)
