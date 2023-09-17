@@ -1,5 +1,5 @@
 # Email-Marketing-Campaign-Dashboard
-This repository showcases Python scripts used in generating fake data and the rest of the steps taken behind my personal Tableau project - Email Marketing Campaign Dashboard. It is based off the client work I have done. The dashboard is available [here]().
+This repository showcases Python scripts used in generating fake data and the rest of the steps taken behind my personal Tableau project - Email Marketing Campaign Dashboard. It is based on the client work I have done. The dashboard is available [here]().
 
 Dashboard - Overview:
 ![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/8a35ae91-6ddb-4eb7-a164-04f3006a4bfb)
@@ -29,7 +29,7 @@ This script transforms the filtered data into the format suitable to build a San
 
 Full code available [here](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/sankey.py).
 
-*Some of the code was written with the help of Chat GPT to speed up the process up. 
+*Some of the code was written with the help of Chat GPT to speed up the process. 
 
 ## STEP 3. Setting up the Data Model
 The data model for this dashboard is relatively simple. It includes two tables with no relationship established between the two of them. One is the sankey dataset, which is used to build the sankey, and the other one is the email metrics dataset that was used to build the rest of the dashboard.
