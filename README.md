@@ -2,7 +2,7 @@
 This repository showcases Python scripts used in generating fake data and the rest of the steps taken behind my personal Tableau project - Email Marketing Campaign Dashboard. It is based on the client work I have done. The dashboard is available [here](https://public.tableau.com/app/profile/marius5597/viz/EmailMarketingCampaignDashboard_16951221887730/OverviewDashboard).
 
 Dashboard - Overview:
-![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/8a35ae91-6ddb-4eb7-a164-04f3006a4bfb)
+![Email Marketing Campaign Dashboard](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/e7202709-70d3-44ad-b337-284dc1ccaa7b)
 
 Datasets available:
 <br>[data.world](https://data.world/mariusnikiforovas/filtered-dataset-email-marketing-campaign-dashboard)
@@ -17,7 +17,7 @@ It was then followed by writing the Python scripts. There are three scripts for 
 #### Script 1. Data generating script
 This script uses faker library to generate fake email data including customer name, email name, sent dates etc. as per below:
 
-![Columns Data](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/5edfdca5-7d8e-432a-9462-15c73af81257)
+![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/90a1b18a-b3a3-4b8a-b36f-45216f52cfec)
 
 Full code available [here](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/generate_emails.py).
 
@@ -29,7 +29,7 @@ Full code available [here](https://github.com/Marius321/Email-Marketing-Campaign
 #### Script 3. Sankey script
 This script transforms the filtered data into the format suitable to build a Sankey Funnel Chart. The format is available in the screenshot below. Script filters the data down to the month of August and to the year 2023, later unioning the results to allow period filterability on the dashboard.
 
-![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/99f49745-76bf-4b4f-bd80-4adea18406fd)
+![image](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/assets/117634180/cd0762ef-8b16-447d-9c88-6dffde6c025b)
 
 Full code available [here](https://github.com/Marius321/Email-Marketing-Campaign-Dashboard/blob/main/sankey.py).
 
